@@ -1,0 +1,22 @@
+/*element Selector*/
+p {
+    color: aliceblue;
+    font-size:20px;
+    text-align: center;
+}
+/*class Selector*/
+.blue {
+    color:blue;
+}
+/*id Selector  ----  ONLY USED BY ONE THING. CAN'T BE USED MULTIPLE TIMES.*/
+#name {
+    color:blue;
+}
+/*Grouping Selectors*/
+p, .blue, #name {
+    text-align: center;
+}
+/*Element with class selector ----  both element & class */
+p.black{
+    color: blue;
+}
