@@ -40,8 +40,26 @@ li:nth-child(3){}   /*targerts 3rd element in list*/
 /*================================================
 <head>
 ...
+<style>
     <link rel="stylesheet" href="style.css">
-...
+</style>
+    ...
 </head>
 
 ===================================================*/
+
+/* Specificity Score*/
+/*
+    style  >  id  >  class  >  no. of elements
+*/
+
+/*Styling used*/
+.style{
+    font-family: 'Courier New', Courier, monospace;
+    color: aquamarine;
+    font-style: italic;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2em; /*  2x  */
+}
