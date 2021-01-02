@@ -20,3 +20,28 @@ p, .blue, #name {
 p.black{
     color: blue;
 }
+/* element being direct child of element = <article><p> ... </p></artice>*/
+article > p {
+    color: blueviolet;
+}
+
+/* element beign inside of other element at any level = article>...<div>...<p> ... </p>...</div>...</artice>*/
+article p {
+    color:chartreuse;
+}
+/*Pseudo-class selectors = Used when hovering the mouser over text*/
+a:link{}    /*link before is visited*/
+b:visited{} /*link after is visited*/
+a:hover{}   /*hovering above text*/
+b:active{}  /*holding down mouse*/
+li:nth-child(3){}   /*targerts 3rd element in list*/
+
+/*Style Placement*/
+/*================================================
+<head>
+...
+    <link rel="stylesheet" href="style.css">
+...
+</head>
+
+===================================================*/
